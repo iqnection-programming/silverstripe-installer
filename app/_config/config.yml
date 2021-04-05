@@ -1,0 +1,14 @@
+---
+Name: mysite
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Mysite\SiteConfig\SiteConfigExtension
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
+
+SilverStripe\View\Requirements_Backend:
+  default_combined_files_folder: 'combined'
