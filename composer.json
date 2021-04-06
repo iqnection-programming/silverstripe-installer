@@ -24,9 +24,9 @@
         "axllent/silverstripe-form-fields": "^1.5",
 
         "iqnection/silverstripe-redirects": "^1.0",
-		"iqnection-pages/basepages" : "^2.2",
+		"iqnection-pages/basepages" : "dev-master",
 		"iqnection/silverstripe-heading-page": "*",
-		"iqnection-themes/mysite" : "2.2.6",
+		"iqnection-themes/mysite" : "dev-master",
 		"iqnection-modules/embeddedcontent" : "^2.1",
 		"iqnection-pages/photogallerypage": "^2.2",
         "iqnection-pages/faqpage": "^2.1",
@@ -44,8 +44,7 @@
         	"app/_config/scss.yml",
             "app/src/HomePage/HomePage.php",
             "app/src/HomePage/HomePageController.php",
-            "app/src/SiteConfig/SiteConfigExtension.php",
-            "app/src/PageController.php"
+            "app/src/SiteConfig/SiteConfigExtension.php"
         ],
         "public-files-installed": [
             "robots.txt"
